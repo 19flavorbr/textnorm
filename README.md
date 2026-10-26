@@ -44,7 +44,9 @@ textnorm --help
 2. 转换后再告诉你变成了什么
 3. 最后做一次往返校验，不一致就报出**具体位置**
 
-## 四个子命令
+## 用法
+
+`textnorm` 有四个子命令。
 
 ```bash
 # 1. 探测编码与换行风格
@@ -61,7 +63,9 @@ python textnorm.py escape --input escaped.txt --unescape
 python textnorm.py roundtrip --input sample.txt --from utf-8 --to utf-8
 ```
 
-输出示例：
+## 输出
+
+探测编码与换行风格时输出示例：
 
 ```
 文件：./sample.txt

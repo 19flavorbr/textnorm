@@ -9,6 +9,23 @@
 - 单文件，`textnorm.py` 拷走就能用
 - **不一致必须报错**，不静默通过；差异定位到字节与字符序号
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install 19flavorbr-textnorm
+```
+
+装完直接用命令名调用：
+
+```bash
+textnorm --help
+```
+
+也可以不用安装，直接把 `textnorm.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 文本处理里最吓人的不是报错，是**内容悄悄变了**。
